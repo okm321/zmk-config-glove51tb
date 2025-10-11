@@ -23,7 +23,7 @@ layers:
   - {t: ▽, type: trans}
   - H
   - J
-  - {t: K, h: SCROLL}
+  - {t: K, h: toggle}
   - L
   - ;
   - ''''
@@ -109,20 +109,20 @@ layers:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - '&WINDOW_BACK'
-  - '&WINDOW_PREV'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: VOLUME DOWN, h: toggle}
+  - {t: VOLUME UP, h: toggle}
+  - {t: 'Gui+[', h: toggle}
+  - {t: 'Gui+]', h: toggle}
+  - {t: Gui+Alt+I, h: toggle}
+  - {t: Gui+R, h: toggle}
   - '{'
   - '}'
   - {t: ▽, type: trans}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR ALL
-  - BT CLR
+  - {t: BRIGHTNESS DEC, h: toggle}
+  - {t: BRI UP, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
@@ -132,12 +132,12 @@ layers:
   - '['
   - ']'
   - {t: ▽, type: trans}
+  - BT CLR
+  - BT CLR ALL
+  - {t: Gui+F5, h: toggle}
+  - {t: Gui+Sft+5, h: toggle}
+  - {t: Gui+Sft+4, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&ind_con'
-  - '&ind_bat'
   - {t: ▽, type: trans}
   - '&'
   - '|'
@@ -283,17 +283,17 @@ layers:
   - {t: ▽, type: trans}
   - F11
   - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
