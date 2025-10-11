@@ -217,9 +217,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&mkp MCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -230,11 +227,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - {t: '&mkp RCLK', h: SCROLL}
   - '&mkp LCLK'
   - {t: '&mkp MCLK', h: SCROLL}
   - '&mkp RCLK'
-  - '&mkp LCLK'
-  - {t: '&mkp RCLK', h: SCROLL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
