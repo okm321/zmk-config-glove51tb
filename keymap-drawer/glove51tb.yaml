@@ -132,8 +132,8 @@ layers:
   - '['
   - ']'
   - PREV
+  - PLAY PAUSE
   - NEXT
-  - {t: ▽, type: trans}
   - Gui+F5
   - Gui+Sft+5
   - Gui+Sft+4
