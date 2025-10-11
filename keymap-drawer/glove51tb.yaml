@@ -45,7 +45,7 @@ layers:
   - SYM
   - LEFT CONTROL
   - LEFT ALT
-  - LEFT GUI
+  - {t: LANGUAGE 1, h: LEFT GUI}
   - '&lang_behavior'
   - SPACE
   - ENTER
