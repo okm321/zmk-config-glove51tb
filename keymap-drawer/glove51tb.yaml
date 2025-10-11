@@ -34,7 +34,7 @@ layers:
   - V
   - B
   - SCROLL
-  - ''''
+  - {t: N, h: RIGHT SHIFT}
   - N
   - M
   - ','
