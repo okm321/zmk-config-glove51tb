@@ -33,7 +33,7 @@ layers:
   - C
   - V
   - B
-  - SCROLL
+  - MOUSE
   - {t: N, h: RIGHT SHIFT}
   - N
   - M
@@ -241,7 +241,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -283,7 +283,7 @@ layers:
   - {t: ▽, type: trans}
   - F11
   - F12
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
