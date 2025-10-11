@@ -46,7 +46,7 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - LEFT GUI
-  - B
+  - '&lang_behavior'
   - SPACE
   - ENTER
   - {t: BACKSPACE, h: SYM}
