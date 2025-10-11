@@ -23,7 +23,7 @@ layers:
   - {t: ▽, type: trans}
   - H
   - J
-  - {t: K, h: toggle}
+  - K
   - L
   - ;
   - ''''
