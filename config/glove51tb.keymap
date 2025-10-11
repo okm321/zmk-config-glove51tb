@@ -35,7 +35,7 @@
 
 &lt {
     quick-tap-ms = <200>;
-    tapping-term-ms = <100>;
+    tapping-term-ms = <50>;
 };
 
 / {
@@ -83,27 +83,6 @@
         };
     };
 
-    macros {
-        WINDOW_BACK: WINDOW_BACK {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_GUI &kp LEFT_BRACKET>,
-                <&macro_release>,
-                <&kp RIGHT_BRACKET &kp LEFT_GUI>;
-
-            label = "WINDOW_BACK";
-        };
-
-        WINDOW_PREV: WINDOW_PREV {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LGUI &kp RIGHT_BRACKET>;
-            label = "WINDOW_PREV";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -111,7 +90,7 @@
             label = "DEFAULT";
             bindings = <
 &kp ESC           &kp Q           &kp W             &kp E         &kp R                    &kp T                                        &kp Y            &kp U  &kp I      &kp O    &kp P          &kp MINUS
-&mt LCTRL TAB     &kp A           &kp S             &kp D         &kp F                    &kp G           &trans     &trans            &kp H            &kp J  &lt 5 K    &kp L    &kp SEMI       &kp SQT
+&mt LCTRL TAB     &kp A           &kp S             &kp D         &kp F                    &kp G           &trans     &trans            &kp H            &kp J  &kt K      &kp L    &kp SEMI       &kp SQT
 &kp LEFT_SHIFT    &mt LEFT_ALT Z  &kp X             &kp C         &kp V                    &kp B           &mo 5      &kp SINGLE_QUOTE  &kp N            &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp EQUAL
 &kp LEFT_CONTROL  &mo 2           &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_1  &lang_behavior  &kp SPACE  &kp ENTER         &lt 2 BACKSPACE                             &kp BACKSLASH  &trans
             >;
@@ -132,11 +111,13 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4                    &WINDOW_BACK    &WINDOW_PREV    &trans        &trans     &kp LBRC          &kp RBRC
-&trans  &trans        &trans        &trans        &bt BT_CLR_ALL  &bt BT_CLR    &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &trans        &trans        &trans        &trans          &ind_con      &ind_bat  &trans  &kp AMPS        &kp PIPE        &kp PLUS      &kp MINUS  &kp LPAR          &kp RPAR
-&trans  &trans        &trans        &trans        &trans          &trans        &trans    &trans  &trans                                                   &trans            &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &kt C_VOLUME_DOWN     &kt C_VOLUME_UP                       &kt LG(LEFT_BRACKET)  &kt LG(RIGHT_BRACKET)  &kt LG(LA(I))  &kt LG(R)  &kp LBRC          &kp RBRC
+&trans  &bt BT_SEL 3  &bt BT_SEL 4    &trans        &kt C_BRIGHTNESS_DEC  &kt C_BRI_UP          &trans  &trans  &kp LEFT_ARROW        &kp DOWN_ARROW         &kp UP_ARROW   &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &bt BT_CLR    &bt BT_CLR_ALL  &kt LG(F5)    &kt LG(LS(NUMBER_5))  &kt LG(LS(NUMBER_4))  &trans  &trans  &kp AMPS              &kp PIPE               &kp PLUS       &kp MINUS  &kp LPAR          &kp RPAR
+&trans  &trans        &trans          &trans        &trans                &trans                &trans  &trans  &trans                                                                 &trans            &trans
             >;
+
+            sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         function_layer {
