@@ -84,8 +84,15 @@
         WINDOW_BACK: WINDOW_BACK {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LWIN &kp LEFT_BRACKET>;
             label = "WINDOW_BACK";
+        };
+
+        WINDOW_PREV: WINDOW_PREV {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LGUI &kp RIGHT_BRACKET>;
+            label = "WINDOW_PREV";
         };
     };
 
@@ -96,7 +103,7 @@
             label = "DEFAULT";
             bindings = <
 &kp ESC           &kp Q           &kp W             &kp E         &kp R         &kp T                                        &kp Y            &kp U  &kp I      &kp O    &kp P          &kp MINUS
-&mt LCTRL TAB     &kp A           &kp S             &kp D         &kp F         &kp G           &trans     &trans            &kp H            &kp J  &kp K      &kp L    &kp SEMI       &kp SQT
+&mt LCTRL TAB     &kp A           &kp S             &kp D         &kp F         &kp G           &trans     &trans            &kp H            &kp J  &lt 5 K    &kp L    &kp SEMI       &kp SQT
 &kp LEFT_SHIFT    &mt LEFT_ALT Z  &kp X             &kp C         &kp V         &kp B           &mo 5      &kp SINGLE_QUOTE  &kp N            &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp EQUAL
 &kp LEFT_CONTROL  &mo 2           &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &lang_behavior  &kp SPACE  &kp ENTER         &lt 2 BACKSPACE                             &kp BACKSLASH  &trans
             >;
@@ -117,7 +124,7 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4                    &trans          &trans          &trans        &trans     &kp LBRC          &kp RBRC
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4                    &WINDOW_BACK    &WINDOW_PREV    &trans        &trans     &kp LBRC          &kp RBRC
 &trans  &trans        &trans        &trans        &bt BT_CLR_ALL  &bt BT_CLR    &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans  &trans        &trans        &trans        &trans          &ind_con      &ind_bat  &trans  &kp AMPS        &kp PIPE        &kp PLUS      &kp MINUS  &kp LPAR          &kp RPAR
 &trans  &trans        &trans        &trans        &trans          &trans        &trans    &trans  &trans                                                   &trans            &trans
@@ -139,10 +146,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans           &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &msc MOVE_Y(20)  &mkp RCLK  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans           &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mo 5   &mkp RCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans  &trans
             >;
         };
 
