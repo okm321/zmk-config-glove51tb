@@ -33,6 +33,12 @@
     acceleration-exponent = <0>;
 };
 
+&lt {
+    hold-while-undecided;
+    hold-while-undecided-linger;
+    quick-tap-ms = <200>;
+};
+
 / {
     input_processors {
         zip_wheel_scaler: zip_wheel_scaler {
