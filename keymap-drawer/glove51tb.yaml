@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - '-'
-  - TAB
+  - {t: TAB, h: LCTRL}
   - A
   - S
   - D
