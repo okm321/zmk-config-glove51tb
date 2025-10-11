@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - '-'
   - TAB
   - A
   - S
@@ -26,9 +26,9 @@ layers:
   - K
   - L
   - ;
-  - RETURN
+  - ''''
   - LEFT SHIFT
-  - Z
+  - {t: Z, h: LEFT ALT}
   - X
   - C
   - V
@@ -40,16 +40,16 @@ layers:
   - ','
   - .
   - /
-  - RIGHT SHIFT
+  - '='
   - LEFT CONTROL
   - SYM
   - LEFT CONTROL
   - LEFT ALT
   - LEFT GUI
-  - '&mkp LCLK'
+  - '&lang_behavior'
   - SPACE
-  - SPACE
-  - FUN
+  - ENTER
+  - {t: BACKSPACE, h: SYM}
   - \
   - {t: ▽, type: trans}
   NUM:
@@ -205,7 +205,7 @@ layers:
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
