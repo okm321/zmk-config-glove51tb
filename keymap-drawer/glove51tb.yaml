@@ -46,7 +46,7 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - {t: LANGUAGE 1, h: LEFT GUI}
-  - {t: LANGUAGE 1, h: NUM}
+  - {t: LANGUAGE 2, h: NUM}
   - SPACE
   - ENTER
   - {t: BACKSPACE, h: SYM}
@@ -105,24 +105,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
-  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - {t: VOLUME DOWN, h: toggle}
-  - {t: VOLUME UP, h: toggle}
-  - {t: 'Gui+[', h: toggle}
-  - {t: 'Gui+]', h: toggle}
-  - {t: Gui+Alt+I, h: toggle}
-  - {t: Gui+R, h: toggle}
+  - {t: BT, h: '3'}
+  - VOLUME DOWN
+  - VOLUME UP
+  - Gui+[
+  - Gui+]
+  - Gui+Alt+I
+  - Gui+R
   - '{'
   - '}'
-  - {t: ▽, type: trans}
-  - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
-  - {t: BRIGHTNESS DEC, h: toggle}
-  - {t: BRI UP, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BRIGHTNESS DEC
+  - BRI UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
@@ -132,11 +132,11 @@ layers:
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - BT CLR
-  - BT CLR ALL
-  - {t: Gui+F5, h: toggle}
-  - {t: Gui+Sft+5, h: toggle}
-  - {t: Gui+Sft+4, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+F5
+  - Gui+Sft+5
+  - Gui+Sft+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&'
