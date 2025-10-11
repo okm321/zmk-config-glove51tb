@@ -85,7 +85,7 @@
             label = "DEFAULT";
             bindings = <
 &kp ESC           &kp Q           &kp W             &kp E         &kp R         &kp T                                        &kp Y            &kp U  &kp I      &kp O    &kp P          &kp MINUS
-&kp TAB           &kp A           &kp S             &kp D         &kp F         &kp G           &trans     &trans            &kp H            &kp J  &kp K      &kp L    &kp SEMI       &kp SQT
+&mt LCTRL TAB     &kp A           &kp S             &kp D         &kp F         &kp G           &trans     &trans            &kp H            &kp J  &kp K      &kp L    &kp SEMI       &kp SQT
 &kp LEFT_SHIFT    &mt LEFT_ALT Z  &kp X             &kp C         &kp V         &kp B           &mo 5      &kp SINGLE_QUOTE  &kp N            &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp EQUAL
 &kp LEFT_CONTROL  &mo 2           &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &lang_behavior  &kp SPACE  &kp ENTER         &lt 2 BACKSPACE                             &kp BACKSLASH  &trans
             >;
