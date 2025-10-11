@@ -33,6 +33,11 @@
     acceleration-exponent = <0>;
 };
 
+&lt {
+    quick-tap-ms = <200>;
+    tapping-term-ms = <100>;
+};
+
 / {
     input_processors {
         zip_wheel_scaler: zip_wheel_scaler {
@@ -75,8 +80,6 @@
             label = "LANG_BEHAVIOR";
             #binding-cells = <0>;
             bindings = <&lt 1 LANGUAGE_2>, <&kp LANGUAGE_1>;
-
-            tapping-term-ms = <100>;
         };
     };
 
@@ -84,7 +87,12 @@
         WINDOW_BACK: WINDOW_BACK {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LWIN &kp LEFT_BRACKET>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_GUI &kp LEFT_BRACKET>,
+                <&macro_release>,
+                <&kp RIGHT_BRACKET &kp LEFT_GUI>;
+
             label = "WINDOW_BACK";
         };
 
@@ -102,10 +110,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC           &kp Q           &kp W             &kp E         &kp R         &kp T                                        &kp Y            &kp U  &kp I      &kp O    &kp P          &kp MINUS
-&mt LCTRL TAB     &kp A           &kp S             &kp D         &kp F         &kp G           &trans     &trans            &kp H            &kp J  &lt 5 K    &kp L    &kp SEMI       &kp SQT
-&kp LEFT_SHIFT    &mt LEFT_ALT Z  &kp X             &kp C         &kp V         &kp B           &mo 5      &kp SINGLE_QUOTE  &kp N            &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp EQUAL
-&kp LEFT_CONTROL  &mo 2           &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &lang_behavior  &kp SPACE  &kp ENTER         &lt 2 BACKSPACE                             &kp BACKSLASH  &trans
+&kp ESC           &kp Q           &kp W             &kp E         &kp R                    &kp T                                        &kp Y            &kp U  &kp I      &kp O    &kp P          &kp MINUS
+&mt LCTRL TAB     &kp A           &kp S             &kp D         &kp F                    &kp G           &trans     &trans            &kp H            &kp J  &lt 5 K    &kp L    &kp SEMI       &kp SQT
+&kp LEFT_SHIFT    &mt LEFT_ALT Z  &kp X             &kp C         &kp V                    &kp B           &mo 5      &kp SINGLE_QUOTE  &kp N            &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp EQUAL
+&kp LEFT_CONTROL  &mo 2           &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_1  &lang_behavior  &kp SPACE  &kp ENTER         &lt 2 BACKSPACE                             &kp BACKSLASH  &trans
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
