@@ -145,10 +145,10 @@ layers:
   - '-'
   - (
   - )
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1', type: held}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -368,6 +368,3 @@ combos:
 - p: [22, 21]
   k: SCROLL
   l: [MOUSE]
-- p: [24, 23]
-  k: SCROLL
-  l: [HOLD_MOUSE]
