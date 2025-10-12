@@ -147,7 +147,7 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &mkp MCLK                           &trans  &trans     &mkp MCLK
+&to 0   &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &mkp MCLK                           &trans  &trans     &mkp MCLK
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mouse_hold_scroll_behavior 5 RCLK  &trans  &mkp LCLK  &mouse_hold_scroll_behavior 5 RCLK
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans                              &trans  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                         &trans     &trans
