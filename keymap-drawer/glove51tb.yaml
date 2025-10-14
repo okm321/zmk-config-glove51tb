@@ -257,7 +257,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: DEFAULT, h: toggle}
+  - {t: DEFAULT, h: DEFAULT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
