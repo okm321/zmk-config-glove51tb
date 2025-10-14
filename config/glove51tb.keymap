@@ -159,7 +159,7 @@
 &to 0   &trans  &trans  &trans  &trans  &trans                  &trans                            &trans     &trans                              &trans     &trans     &mkp MCLK
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                            &mkp LCLK  &mouse_hold_scroll_behavior 5 MCLK  &mkp RCLK  &mkp LCLK  &mouse_hold_scroll_behavior 5 RCLK
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                            &trans     &trans                              &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &back_default_layer_behavior 0 0                                                            &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &back_default_layer_behavior 2 0                                                            &trans     &trans
             >;
         };
 
