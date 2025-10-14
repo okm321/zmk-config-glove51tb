@@ -217,7 +217,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MCLK'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MCLK'
@@ -231,7 +231,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
-  - SCROLL
+  - {t: '&mkp MCLK', h: SCROLL}
   - '&mkp RCLK'
   - '&mkp LCLK'
   - {t: '&mkp RCLK', h: SCROLL}
