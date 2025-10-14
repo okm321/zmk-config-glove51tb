@@ -97,7 +97,7 @@
         back_default_layer_behavior: back_default_layer_behavior {
             compatible = "zmk,behavior-hold-tap";
             label = "BACK_DEFAULT_LAYER_BEHAVIOR";
-            bindings = <&to>, <&to>;
+            bindings = <&mo>, <&mo>;
 
             #binding-cells = <2>;
             tapping-term-ms = <100>;
