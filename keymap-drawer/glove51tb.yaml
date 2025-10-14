@@ -368,3 +368,5 @@ combos:
 - p: [22, 21]
   k: SCROLL
   l: [MOUSE]
+- p: [21, 22, 23]
+  k: {t: MOUSE, h: toggle}
