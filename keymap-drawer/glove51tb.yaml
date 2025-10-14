@@ -231,8 +231,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
-  - {t: '&mkp RCLK', h: SCROLL}
-  - {t: ▽, type: trans}
+  - SCROLL
+  - '&mkp RCLK'
   - '&mkp LCLK'
   - {t: '&mkp RCLK', h: SCROLL}
   - {t: ▽, type: trans}
