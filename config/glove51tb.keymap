@@ -150,7 +150,7 @@
 &to 0   &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans                              &trans     &trans     &mkp MCLK
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mouse_hold_scroll_behavior 5 MCLK  &mkp RCLK  &mkp LCLK  &mouse_hold_scroll_behavior 5 RCLK
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans                              &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                            &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0                                                             &trans     &trans
             >;
         };
 
