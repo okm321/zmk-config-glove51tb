@@ -35,7 +35,6 @@
 
 &lt {
     hold-while-undecided;
-    hold-while-undecided-linger;
     quick-tap-ms = <150>;
     flavor = "hold-preferred";
 };
