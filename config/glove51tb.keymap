@@ -157,10 +157,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&to 0   &trans  &trans  &trans  &trans  &trans                  &trans                            &trans     &mkp MCLK  &trans     &trans     &mkp MCLK
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                            &mkp LCLK  &mo 5      &mkp RCLK  &mkp LCLK  &mouse_hold_scroll_behavior 5 RCLK
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                            &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &back_default_layer_behavior 2 0                                   &trans     &trans
+&kp ESC           &kp Q           &kp W             &kp E         &kp R                    &kp T                                         &kp Y            &mkp MCLK  &mkp MCLK  &kp O    &mkp MCLK      &mkp MCLK
+&mt LCTRL TAB     &kp A           &kp S             &kp D         &kp F                    &kp G           &trans     &mo 3              &kp H            &mkp LCLK  &mo 5      &mkp RCLK  &mkp LCLK       &mouse_hold_scroll_behavior 5 RCLK
+&kp LEFT_SHIFT    &mt LEFT_ALT Z  &kp X             &kp C         &kp V                    &kp B           &trans     &mt RIGHT_SHIFT N  &kp N            &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp EQUAL
+&kp LEFT_CONTROL  &mo 2           &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI LANGUAGE_1  &lang_behavior  &kp SPACE  &kp ENTER          &back_default_layer_behavior 2 0                             &kp BACKSLASH  &trans
             >;
         };
 
