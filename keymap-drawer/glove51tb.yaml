@@ -216,10 +216,10 @@ layers:
   - R
   - T
   - Y
-  - '&mkp MCLK'
+  - U
   - '&mkp MCLK'
   - O
-  - '&mkp MCLK'
+  - P
   - '&mkp MCLK'
   - {t: TAB, h: LCTRL}
   - A
