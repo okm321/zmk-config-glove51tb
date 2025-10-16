@@ -209,56 +209,56 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
-  - {t: DEFAULT, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
   - '&mkp MCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&mkp MCLK'
+  - O
+  - '&mkp MCLK'
+  - '&mkp MCLK'
+  - {t: TAB, h: LCTRL}
+  - A
+  - S
+  - D
+  - F
+  - G
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - FUN
+  - H
   - '&mkp LCLK'
   - SCROLL
   - '&mkp RCLK'
   - '&mkp LCLK'
   - {t: '&mkp RCLK', h: SCROLL}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - {t: Z, h: LEFT ALT}
+  - X
+  - C
+  - V
+  - B
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: N, h: RIGHT SHIFT}
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - '='
+  - LEFT CONTROL
+  - SYM
+  - LEFT CONTROL
+  - LEFT ALT
+  - {t: LANGUAGE 1, h: LEFT GUI}
+  - '&lang_behavior'
+  - SPACE
+  - ENTER
   - {t: DEFAULT, h: SYM}
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
