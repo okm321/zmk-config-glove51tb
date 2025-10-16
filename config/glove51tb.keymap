@@ -34,8 +34,8 @@
 };
 
 &lt {
-    quick-tap-ms = <150>;
     flavor = "hold-preferred";
+    hold-while-undecided;
 };
 
 / {
