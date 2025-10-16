@@ -46,7 +46,7 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - LEFT GUI
-  - '&lang_behavior'
+  - {t: Ctl+SPACE, h: NUM}
   - SPACE
   - ENTER
   - {t: BACKSPACE, h: SYM}
@@ -98,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -254,7 +254,7 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - {t: LANGUAGE 1, h: LEFT GUI}
-  - '&lang_behavior'
+  - ''
   - SPACE
   - ENTER
   - {t: DEFAULT, h: SYM}
