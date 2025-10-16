@@ -45,7 +45,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT CONTROL
   - LEFT ALT
-  - {t: LANGUAGE 1, h: LEFT GUI}
+  - {t: LANGUAGE 2, h: LEFT GUI}
   - {t: LANGUAGE 1, h: NUM}
   - SPACE
   - ENTER
