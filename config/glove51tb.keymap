@@ -38,6 +38,14 @@
     hold-while-undecided;
 };
 
+&zip_temp_layer {
+    excluded-positions = <21 22 23>;
+};
+
+&mkp_input_listener {
+    input-processors = <&zip_temp_layer 4 500>;
+};
+
 / {
     input_processors {
         zip_wheel_scaler: zip_wheel_scaler {
