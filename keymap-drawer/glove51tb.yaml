@@ -45,8 +45,8 @@ layers:
   - {t: ▽, type: trans}
   - LEFT CONTROL
   - LEFT ALT
-  - {t: LANGUAGE 2, h: LEFT GUI}
-  - {t: LANGUAGE 1, h: NUM}
+  - {t: LANGUAGE 1, h: LEFT GUI}
+  - {t: LANGUAGE 2, h: NUM}
   - SPACE
   - ENTER
   - {t: BACKSPACE, h: SYM}
@@ -131,9 +131,9 @@ layers:
   - RIGHT
   - '['
   - ']'
-  - PREV
-  - PLAY PAUSE
-  - NEXT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+F5
   - Gui+Sft+5
   - Gui+Sft+4
@@ -209,56 +209,56 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
-  - ESC
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - '&mkp MCLK'
-  - O
-  - P
-  - '&mkp MCLK'
-  - {t: TAB, h: LCTRL}
-  - A
-  - S
-  - D
-  - F
-  - G
   - {t: ▽, type: trans}
-  - FUN
-  - H
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp LCLK'
   - SCROLL
   - '&mkp RCLK'
-  - '&mkp LCLK'
-  - {t: '&mkp RCLK', h: SCROLL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: Z, h: LEFT ALT}
-  - X
-  - C
-  - V
-  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: N, h: RIGHT SHIFT}
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - '='
-  - LEFT CONTROL
-  - SYM
-  - LEFT CONTROL
-  - LEFT ALT
-  - {t: LANGUAGE 1, h: LEFT GUI}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
-  - SPACE
-  - ENTER
-  - {t: DEFAULT, h: SYM}
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
